@@ -1,0 +1,25 @@
+#deployment
+streamlit
+
+# Core PyTorch - MUST be compatible with CUDA if using GPU
+torch>=2.2.0
+
+# Transformers and model handling
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# Hugging Face ecosystem
+huggingface_hub>=0.20.0
+tokenizers>=0.15.0
+safetensors>=0.4.0
+
+# Quantization support (for Llama 4-bit loading)
+bitsandbytes>=0.41.0
+
+# Document processing
+python-docx>=1.1.0
+
+# Utilities
+numpy>=1.24.0
+regex>=2023.0.0
+

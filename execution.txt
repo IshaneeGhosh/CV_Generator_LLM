@@ -1,0 +1,6 @@
+#Installing all requirements
+pip install -r requirements.txt
+
+#Running main.py
+python main.py --hf_token "hf_YOUR_TOKEN_HERE"
+
